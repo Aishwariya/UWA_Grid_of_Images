@@ -1,0 +1,17 @@
+﻿<Application
+    x:Class="MicrosoftAssignment.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MicrosoftAssignment"
+    xmlns:cmn="using:MicrosoftAssignment.Common"
+    RequestedTheme="Light">
+    
+    <Application.Resources>
+        <ResourceDictionary> 
+
+            <cmn:Imageloadasync x:Key="converter"/>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>
